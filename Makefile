@@ -12,7 +12,7 @@ PKG_SOURCE:=svn1113.tar.gz
 PKG_SOURCE_URL:=https://github.com/cokebar/vlmcsd/archive
 PKG_MD5SUM:=ea19cc1346fba447daced0224b670423
 
-PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-svn1113
 PKG_BUILD_PARALLEL:=1
 
 include $(INCLUDE_DIR)/package.mk
