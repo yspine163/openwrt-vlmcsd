@@ -19,7 +19,7 @@ env:
   # For example: Luci-App-Adguardhome, V2ray-Core, KMOD-Wireguard, etc.
   # 1. 设置你要编译的软件包名称 (必须与你的软件包目录名相同)
   #    例如: luci-app-adguardhome, v2ray-core, kmod-wireguard 等
-  PACKAGE_NAME: openwrt-vlmcsd
+  PACKAGE_NAME: vlmcsd
 
   # 2. Set the version of OpenWrt to compile (it must be the official release label, such as' v23.05.3').
   # Note: this method does not support' master' or' openwrt-23.05' and other branch names.
