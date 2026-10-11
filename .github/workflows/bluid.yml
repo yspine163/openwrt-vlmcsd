@@ -227,7 +227,7 @@ jobs:
       - name: Collect artifacts
         id: collect_artifacts
         working-directory: ${{ env.SDK_DIR }}
-        run: 
+        run: |
           
           rm -rf upload
           mkdir -p upload
