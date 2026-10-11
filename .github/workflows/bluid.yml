@@ -227,10 +227,11 @@ jobs:
       - name: Collect artifacts
         id: collect_artifacts
         working-directory: ${{ env.SDK_DIR }}
-        run: |
+        run: 
+          echo ""
           rm -rf upload
           mkdir -p upload
-          
+          ls -A
           if [ -d "output_ipk" ]; then
             echo "Copying IPK files..."
             cp output_ipk/*.ipk upload/ 2>/dev/null || true
