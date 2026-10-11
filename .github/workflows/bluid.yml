@@ -241,7 +241,7 @@ jobs:
           if [ -d "output_apk" ]; then
             echo "Copying APK files..."
             cp output_apk/*.apk upload/ 2>/dev/null || true
-            cp ./bin/packages/x86_64/base/*.apk upload/ 2>dev/null || true
+            cp ./bin/packages/x86_64/base/*.apk upload/ 2>/dev/null || true
           fi
           
           if [ -z "$(ls -A upload)" ]; then
